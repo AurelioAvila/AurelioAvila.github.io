@@ -1,0 +1,21 @@
+# Host-level robots.txt for aurelioavila.github.io.
+#
+# This is the only robots.txt a crawler reads for this host. A robots.txt
+# committed inside a project repository is served at
+# /<project>/robots.txt, which nothing ever fetches, so it has no effect:
+# the rules for every project page published under this domain have to live
+# here, at the root.
+#
+# Everything is crawlable on purpose. /social-dashboard/ is a migration page
+# that carries a canonical and a meta refresh to the product's current home,
+# and the OAuth callback pages carry noindex - a crawler has to be allowed to
+# fetch those pages to see either instruction. Blocking them here would leave
+# the URLs indexable from inbound links alone while hiding the very tags that
+# are meant to take them out of the index.
+#
+# No Sitemap line: this host publishes no canonical content of its own. The
+# pages under it either redirect elsewhere or are noindex, and each product
+# site references its own sitemap from its own domain.
+
+User-agent: *
+Allow: /
