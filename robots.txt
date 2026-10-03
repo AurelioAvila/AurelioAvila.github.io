@@ -13,9 +13,9 @@
 # the URLs indexable from inbound links alone while hiding the very tags that
 # are meant to take them out of the index.
 #
-# No Sitemap line: this host publishes no canonical content of its own. The
-# pages under it either redirect elsewhere or are noindex, and each product
-# site references its own sitemap from its own domain.
+# The official links hub is canonical content on this host. The sitemap
+# lists only that hub; migration and noindex callback pages stay excluded.
 
 User-agent: *
 Allow: /
+Sitemap: https://aurelioavila.github.io/sitemap.xml
