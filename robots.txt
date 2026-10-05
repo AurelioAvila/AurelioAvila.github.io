@@ -13,9 +13,12 @@
 # the URLs indexable from inbound links alone while hiding the very tags that
 # are meant to take them out of the index.
 #
-# The official links hub is canonical content on this host. The sitemap
+# The official links hub is canonical content on this host. The root sitemap
 # lists only that hub; migration and noindex callback pages stay excluded.
+# Project sites publish their own sitemaps, declared below so crawlers find them.
 
 User-agent: *
 Allow: /
 Sitemap: https://aurelioavila.github.io/sitemap.xml
+Sitemap: https://aurelioavila.github.io/dma-guide/sitemap.xml
+Sitemap: https://aurelioavila.github.io/avila-auto-publisher/sitemap.xml
