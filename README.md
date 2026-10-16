@@ -17,7 +17,7 @@ for software by Aurelio Avila.
 | Redexa Social | Private YouTube analytics for Windows. Instagram and TikTok require your own developer apps. | [Website](https://redexa.getcertsprint.com/) · [Releases](https://github.com/AurelioAvila/redexa-social/releases/latest) |
 | Frame Witness | Photo and video recovery with visual triage, source offsets, hashes and dated findings. | [Website](https://framewitness.pages.dev/) · [Releases](https://github.com/AurelioAvila/frame-witness/releases/latest) |
 | Glarion | Website security monitoring and client reporting for digital agencies, with ownership checks for full scans. | [Website](https://glarion.app/) · [Source and security model](https://github.com/AurelioAvila/glarion) |
-| CertSprint | Independent certification practice with original questions, explanations and readiness feedback. | [Website](https://getcertsprint.com/) · [Sample questions](https://getcertsprint.com/samples) |
+| CertSprint | Independent certification practice with original questions, explanations and readiness feedback. | [Website](https://getcertsprint.com/) · [Security+ samples](https://getcertsprint.com/certifications/security-plus/practice-test#samples) |
 
 Redaxa and Redexa Social are separate products: prompt and repository checks,
 and creator analytics, respectively. Product websites and release notes state
